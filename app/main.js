@@ -457,7 +457,7 @@ function connectHue() {
 				app.lightIds.push(lightId);
 			}
 
-			setLightIndex(3);
+			setLightIndex(0);
 		}
 
 		invalidate();
