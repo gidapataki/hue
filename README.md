@@ -5,9 +5,12 @@ Philips Hue Lights UI
 
 ## setup
 
+Add a `config/config.js` file to the root directory:
 ```
 var config = {
 	address: "<hue_bridge_ip>",
 	username: "<hue_bridge_username>",
 };
 ```
+
+And now you can open `app/index.html` in your browser.
